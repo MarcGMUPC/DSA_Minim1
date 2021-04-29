@@ -40,7 +40,7 @@ public class Main {
         beanConfig.setResourcePackage("edu.upc.dsa.services");
         beanConfig.setTermsOfServiceUrl("http://www.example.com/resources/eula");
         beanConfig.setTitle("REST API");
-        beanConfig.setVersion("1.0.0");
+        beanConfig.setVersion("1.0.1");
         beanConfig.setScan(true);
 
         // create and start a new instance of grizzly http server

@@ -3,12 +3,13 @@ package edu.upc.dsa.models;
 import edu.upc.dsa.util.RandomUtils;
 
 public class Track {
-
+    //Atributs
     String id;
     String title;
     String singer;
     static int lastId;
 
+    //Métodes
     public Track() {
         this.id = RandomUtils.getId();
     }
