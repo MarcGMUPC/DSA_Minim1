@@ -5,7 +5,7 @@ import edu.upc.dsa.models.Track;
 import java.util.LinkedList;
 import java.util.List;
 import org.apache.log4j.Logger;
-
+//Singleton
 public class TracksManagerImpl implements TracksManager {
     private static TracksManager instance;
     protected List<Track> tracks;
